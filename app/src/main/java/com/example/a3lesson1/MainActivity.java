@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 
 public class MainActivity extends AppCompatActivity {
     private EditText username, password;
@@ -43,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init() {
-        username = findViewById(R.id.et_username);
-        password = findViewById(R.id.et_password);
+        username = findViewById(R.id.username);
+        password = findViewById(R.id.password);
         btnGo = findViewById(R.id.btn_go);
         imageCar=findViewById(R.id.image_car);
     }
